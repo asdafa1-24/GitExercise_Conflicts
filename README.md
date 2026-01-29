@@ -64,7 +64,7 @@ And after Part 2 the new graph will look like
           -  Save the notebook, open a terminal window in this directory and type `git diff`, now you will see the insane line differences generated just by running the notebook
           -  Before we do any git operations it is a best practice to click on the pulldown menu item `Edit -> Clear Outputs of All Cells`.  Do this now, and press save so we don't have to put this BS into the git history
 1. Lets add a change we do want:
-     - the last line of the notebook currently says `ax.grid('on')` which (although it works) is bad Python form...
+     - the last line of the notebook currently says `ax.grid()` which (although it works) is bad Python form...
      - change it to the more readable and more Pythonic `ax.grid('on')` 
      - save the file when you are done!
 1. Add / commit the changes using the GUI (git extension for Jupyterlab)
